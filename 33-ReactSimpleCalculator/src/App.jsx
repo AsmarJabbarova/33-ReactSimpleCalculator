@@ -1,14 +1,15 @@
 import { useState } from "react";
 
 import "./App.css";
-import Input1 from "./component/input1";
-import Input2 from "./component/input2";
+
+import Input2 from "./component/Input2";
 import Topla from "./component/Buttons/topla";
 import Cix from "./component/Buttons/cix";
 import Vur from "./component/Buttons/vur";
 import Bol from "./component/Buttons/bol";
 
 import Result from "./component/result";
+import Input1 from "./component/Input1";
 
 function App() {
   const [num1, setNum1] = useState("");
